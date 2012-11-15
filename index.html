@@ -10,8 +10,9 @@
 	<link rel="stylesheet" id='style-theme-link' href="style.css" type="text/css" >
 	<script type="text/javascript" src="//use.typekit.net/bvs1pon.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src='dist/jquery.min.js'></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="dist/modernizr.js"></script>
+	<script src="jquery.fittext.js"></script>
 </head>
 <body class="deck-container">
 
@@ -60,11 +61,56 @@
 	<section class="box drop-shadow lifted">
 	<h2>Agenda</h2>
 		<ul>
-    		<li><a href='#'>Link 1</a></li>
-    		<li><a href='#'>Link 2</a></li>
+    		<li><a href='#state'>State of Front End Web Dev</a></li>
+    		<li><a href='#'>HTML5 &amp; the Semantic Web</a></li>
+ 			<li><a href='#'>CSS Crash Course</a></li>
+ 			<li><a href='#'>jQuery - just enough to get you into trouble</a></li>
+		</ul>
+		<h3>LUNCH!</h3>
+		<ul>
+			<li><a href='#'>Skeuomorphism with Alex Lynn</a></li>
+ 			<li><a href='#'>Bootstrapping it!</a></li>
   		</ul>
 	</section>
  </article>
+
+<article class='slide slide-accent' id="state">
+	<div><h2 id="fittext1">The State of Front End Web Development 2012</h2></div>
+ </article>
+
+<article class='slide slide-image' 
+	style="background: url(images/monk.jpeg) no-repeat center center fixed; 
+		-webkit-background-size: cover; 
+		-moz-background-size: cover; 
+		-o-background-size: cover; 
+		background-size: cover;">
+	<div class="headline">
+	<h2 id="fittext2">In the words of Monk:</h2>
+	<h3 id="fittext3">Both a Gift and a Curse</h3>
+	</div>
+	<script type="text/javascript">
+			$("#fittext1").fitText(.85, { minFontSize: 50, maxFontSize: '100px' });
+			$("#fittext2").fitText(1.2, { minFontSize: 50,  });
+		</script>
+
+ </article>
+
+<article class='slide slide-image' 
+	style="background: url(images/cars.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover; 
+		-moz-background-size: cover; 
+		-o-background-size: cover; 
+		background-size: cover;">	
+	<div class="darkbox">
+		<h1 id="fittext4">We have lots of new <br/>toys to play with</h1>
+	</div>
+	<p class="caption">image by <a href="http://www.sxc.hu/profile/vertige">vertige</a></p>
+	<script type="text/javascript">
+			$("#fittext4").fitText(1.5, { minFontSize: 30,  });
+		</script>
+
+ </article>
+
 
 <!-- Apply a class of "coder-editor" to a textarea to make it show up as runnable code -->
 <article class='slide slide-list'>
