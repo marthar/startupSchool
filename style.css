@@ -1,0 +1,78 @@
+.deck-container {
+  padding: 0;
+  /*----SUBHEAD-------*/
+  /*END----SUBHEAD*/ }
+  .deck-container a {
+    color: #f3d77e; }
+  .deck-container .slide-subhead {
+    background-color: #51a7a6;
+    /*Lifted Edges Code*/
+    /*END---Lifted Edges Code*/ }
+    .deck-container .slide-subhead a {
+      color: #f3d77e; }
+    .deck-container .slide-subhead div {
+      margin: 0 auto;
+      width: 35%;
+      padding: 5%;
+      background-color: white; }
+    .deck-container .slide-subhead h1 {
+      padding: 0;
+      font-family: "proxima-nova-condensed",Helvetica, sans-serif;
+      font-weight: 800;
+      text-align: left;
+      color: #f4a103; }
+    .deck-container .slide-subhead h2 {
+      font-family: "adelle",Georgia, serif;
+      text-align: left;
+      font-weight: 300;
+      color: #999999; }
+    .deck-container .slide-subhead p {
+      font-family: "adelle",Georgia, serif;
+      text-align: left;
+      font-weight: 300;
+      color: #999999;
+      font-weight: 300; }
+    .deck-container .slide-subhead .box {
+      width: 100%;
+      margin: 0 auto;
+      padding: 3em; }
+    .deck-container .slide-subhead .drop-shadow {
+      position: relative;
+      float: left;
+      width: 40%;
+      margin: 0 25%;
+      background: #fff;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
+    .deck-container .slide-subhead .drop-shadow:before,
+    .deck-container .slide-subhead .drop-shadow:after {
+      content: "";
+      position: absolute;
+      z-index: -2; }
+    .deck-container .slide-subhead .lifted {
+      -moz-border-radius: 0 0 4px 4px;
+      border-radius: 0 0 4px 4px; }
+    .deck-container .slide-subhead .lifted:before,
+    .deck-container .slide-subhead .lifted:after {
+      bottom: 15px;
+      left: 10px;
+      width: 50%;
+      height: 20%;
+      max-width: 300px;
+      -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+      -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      -o-transform: rotate(-3deg);
+      transform: rotate(-3deg); }
+    .deck-container .slide-subhead .lifted:after {
+      right: 10px;
+      left: auto;
+      -webkit-transform: rotate(3deg);
+      -moz-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+      -o-transform: rotate(3deg);
+      transform: rotate(3deg); }
