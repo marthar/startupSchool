@@ -190,7 +190,7 @@
       text-align: left;
       text-transform: uppercase;
       color: white;
-      font-size: 5em;
+      font-size: 4.5em;
       line-height: 1em;
       margin-top: 15%;
       margin-bottom: 0px; }
@@ -203,7 +203,7 @@
       font-family: "adelle",Georgia, serif;
       text-align: left;
       font-weight: 300;
-      color: #999999;
+      color: white;
       font-weight: 300; }
   .deck-container .slide-image {
     background-color: #3daad5; }
