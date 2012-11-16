@@ -141,7 +141,8 @@
       color: #f4a103;
       font-size: 4.5em;
       border: none;
-      margin-bottom: 0; }
+      margin-bottom: 10px;
+      line-height: 1em; }
     .deck-container .slide-list ul {
       color: #f3d77e;
       font-size: 1.5em;
@@ -332,7 +333,7 @@
       .deck-container .slide-info ul li {
         list-style-type: disc; }
         .deck-container .slide-info ul li a {
-          color: #999999; }
+          color: #f3d77e; }
         .deck-container .slide-info ul li a:hover {
           color: #f4a103;
           text-decoration: none; }
