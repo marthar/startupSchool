@@ -1,3 +1,7 @@
+.slide {
+  max-width: 100%;
+  overflow: hidden; }
+
 .deck-container {
   padding: 0;
   /*----SUBHEAD-------*/
@@ -95,14 +99,16 @@
       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
-    .deck-container .slide-list .drop-shadow:before, .deck-container .slide-list .drop-shadow:after {
+    .deck-container .slide-list .drop-shadow:before,
+    .deck-container .slide-list .drop-shadow:after {
       content: "";
       position: absolute;
       z-index: -2; }
     .deck-container .slide-list .lifted {
       -moz-border-radius: 0 0 4px 4px;
       border-radius: 0 0 4px 4px; }
-    .deck-container .slide-list .lifted:before, .deck-container .slide-list .lifted:after {
+    .deck-container .slide-list .lifted:before,
+    .deck-container .slide-list .lifted:after {
       bottom: 15px;
       left: 10px;
       width: 50%;
@@ -161,7 +167,8 @@
     .deck-container .slide-list li {
       font-family: "adelle",Georgia, serif;
       text-align: left;
-      font-weight: 300; }
+      font-weight: 300;
+      color: #999999; }
       .deck-container .slide-list li a {
         color: #999999; }
       .deck-container .slide-list li a:hover {
@@ -184,7 +191,13 @@
       color: white;
       font-size: 5em;
       line-height: 1em;
-      margin-top: 20%; }
+      margin-top: 20%;
+      margin-bottom: 0px; }
+    .deck-container .slide-accent h3 {
+      padding: 0px;
+      color: #f3d77e;
+      font-size: 3em;
+      font-weight: normal; }
     .deck-container .slide-accent p {
       font-family: "adelle",Georgia, serif;
       text-align: left;
@@ -337,6 +350,22 @@
       font-weight: 300;
       font-size: 1.45em;
       line-height: 1.5em; }
+    .deck-container .slide-info img.top-image {
+      padding-top: 25%; }
+    .deck-container .slide-info ol {
+      padding-top: 25%; }
+      .deck-container .slide-info ol li {
+        font-family: "adelle",Georgia, serif;
+        text-align: left;
+        font-weight: 300;
+        font-size: 2em;
+        color: white; }
+    .deck-container .slide-info .left {
+      float: left;
+      width: 40%; }
+    .deck-container .slide-info .right {
+      float: right;
+      width: 40%; }
     .deck-container .slide-info .whitebox {
       width: 100%;
       position: absolute;

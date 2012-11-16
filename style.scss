@@ -1,3 +1,5 @@
+.slide { max-width:100%; overflow:hidden; }
+
 @mixin head { font-family: "proxima-nova-condensed",Helvetica, sans-serif; font-weight:800; text-align:left;text-transform:uppercase;}
 @mixin body {font-family: "adelle",Georgia, serif; text-align:left; font-weight:300;}
 @mixin transform {
@@ -99,7 +101,7 @@ $gold:#f3d77e;
 		ul {color:$gold; font-size:1.5em; list-style-type:disc; margin-bottom:0;}
 		h3 { @include head; color:$orange; padding-left:1em; padding-top:0; font-size:2em;}
 		p { @include body; color:$gray; font-weight:300; font-size:1.45em; line-height:1.5em;}
-		li  { @include body; 
+		li  { @include body;  color:$gray;
 			a { color:$gray;}
 			a:hover { color:$teal; text-decoration:none;}
 			}
@@ -113,7 +115,8 @@ $gold:#f3d77e;
 		background-color:$blue;
 		a { color:$gold; }
 		div { margin:0 auto; width:65%; padding:5%; }
-		h1, h2 { padding:0; @include head; color:white; font-size:5em; line-height:1em; margin-top:20%;}
+		h1, h2 { padding:0; @include head; color:white; font-size:5em; line-height:1em; margin-top:20%; margin-bottom:0px;}
+		h3 { padding:0px; color:$gold; font-size:3em; font-weight:normal;}
 		p { @include body; color:$gray; font-weight:300;}
 			
 	
@@ -166,7 +169,7 @@ $gold:#f3d77e;
 		h2 { padding:0; @include head; color:white; font-size:4em; line-height:1em; margin-top:20%;}
 		h3 { @include body; font-size:2em; color:$gold;}
 		ul {color:$gold; margin-bottom:0; margin-top:25%;
-			li  {  list-style-type:disc;
+			li  {  list-style-type:disc; 
 				a { color:$gray;}
 				a:hover { color:$orange; text-decoration:none;}
 				p { @include body; color:white; line-height:1.2em;}
@@ -174,6 +177,16 @@ $gold:#f3d77e;
 		}
 		p { @include body; color:$gray; font-weight:300; font-size:1.45em; line-height:1.5em;}
 		
+		img.top-image { padding-top:25%; }
+
+		ol {
+	         padding-top:25%;
+		 li { @include body; font-size:2em; color:white;}
+		}
+
+
+		.left { float:left; width:40%; }
+		.right { float:right; width:40%; }
 
 		.whitebox {
 			width:100%;
