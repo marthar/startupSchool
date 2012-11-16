@@ -115,7 +115,7 @@ $gold:#f3d77e;
 		background-color:$blue;
 		a { color:$gold; }
 		div { margin:0 auto; width:65%; padding:5%; }
-		h1, h2 { padding:0; @include head; color:white; font-size:5em; line-height:1em; margin-top:20%; margin-bottom:0px;}
+		h1, h2 { padding:0; @include head; color:white; font-size:5em; line-height:1em; margin-top:15%; margin-bottom:0px;}
 		h3 { padding:0px; color:$gold; font-size:3em; font-weight:normal;}
 		p { @include body; color:$gray; font-weight:300;}
 			
