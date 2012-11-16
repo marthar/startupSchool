@@ -98,7 +98,7 @@ $gold:#f3d77e;
 		h2 { padding:0; @include head; color:$orange; font-size:4.5em; border:none; margin-bottom:0;}
 		ul {color:$gold; font-size:1.5em; list-style-type:disc; margin-bottom:0;}
 		h3 { @include head; color:$orange; padding-left:1em; padding-top:0; font-size:2em;}
-		p { @include body; color:$gray; font-weight:300;}
+		p { @include body; color:$gray; font-weight:300; font-size:1.45em; line-height:1.5em;}
 		li  { @include body; 
 			a { color:$gray;}
 			a:hover { color:$teal; text-decoration:none;}
@@ -120,11 +120,11 @@ $gold:#f3d77e;
 	}
 /*END----ACCENT------*/
 
-/*----ACCENT-------*/
+/*----IMAGE-DARKBOX-------*/
 	.slide-image {
 		background-color:$blue;
 		a { color:$gold; }
-		.caption { position:absolute; bottom:0; right:0; font-size:.85em; color:$gray;
+		.caption { position:absolute; bottom:0; right:2%; font-size:.85em; color:$gray;
 			a {color:$teal;}
 		}
 		.headline { margin:0 auto; width:85%; padding:3%; }
@@ -136,7 +136,7 @@ $gold:#f3d77e;
 		}
 		.darkbox {
 			width:100%;
-			position:fixed; 
+			position:absolute; 
 			bottom:-4.2%;;
 			left:-5%; 
 			transform:rotate(-5deg);
@@ -150,7 +150,50 @@ $gold:#f3d77e;
 			
 	
 	}
-/*END----ACCENT------*/
+/*END----IMAGE DARKBOX------*/
+
+
+/*----Info Whitebox-------*/
+	.slide-info {
+		background-color:$teal;
+		a { color:$gold; }
+		.caption { position:absolute; bottom:0; right:2%; font-size:.85em; color:$gray;
+			a {color:$teal;}
+		}
+		div { margin:0 auto; width:65%; padding:5%; }
+		.headline { margin:0 auto; width:85%; padding:3%; }
+		h1 { @include transform; position:static; letter-spacing:0; @include head; color:$orange; font-size:4em; line-height:1em; padding-bottom:2%;  }
+		h2 { padding:0; @include head; color:white; font-size:4em; line-height:1em; margin-top:20%;}
+		h3 { @include body; font-size:2em; color:$gold;}
+		ul {color:$gold; margin-bottom:0; margin-top:25%;
+			li  {  list-style-type:disc;
+				a { color:$gray;}
+				a:hover { color:$orange; text-decoration:none;}
+				p { @include body; color:white; line-height:1.2em;}
+				}	
+		}
+		p { @include body; color:$gray; font-weight:300; font-size:1.45em; line-height:1.5em;}
+		
+
+		.whitebox {
+			width:100%;
+			position:absolute; 
+			top:-15%;;
+			left:-5%; 
+			transform:rotate(-5deg);
+			-ms-transform:rotate(-5deg); /* IE 9 */
+			-moz-transform:rotate(-5deg); /* Firefox */
+			-webkit-transform:rotate(-5deg); /* Safari and Chrome */
+			-o-transform:rotate(-5deg); /* Opera */
+			padding:10% 10% 3% 10%; background-color:white;
+			-moz-box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+			-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+			box-shadow: 2px 2px 5px rgba(0,0,0,.2);			
+		}
+			
+	
+	}
+/*END----INFO WHITEBOX------*/
 
 
 }	
